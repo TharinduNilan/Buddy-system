@@ -17,7 +17,7 @@ This project is a **Buddy Memory Allocation Simulator** implemented in **React.j
 
 ## Demo
 
-![Memory Pool Visualization](screenshot.png)  
+![Memory Pool Visualization](./src/assets/screenshot.PNG)  
 *A screenshot of the memory pool with free and allocated blocks.*
 
 ---
