@@ -17,14 +17,23 @@ This project is a **Buddy Memory Allocation Simulator** implemented in **React.j
 
 ## Demo
 
-![Memory Pool Visualization](./src/assets/screenshot.PNG)  
+![Memory Pool Visualization](./src/assets/screenshot.PNG)
 *A screenshot of the memory pool with free and allocated blocks.*
 
 ---
 
-## Installation
+## Installation Process
 
-1. Clone the repository:
+Follow these steps to set up and run the project locally:
+
+### Prerequisites
+Make sure you have the following installed on your system:
+- **Node.js** (v14 or higher) and npm (Node Package Manager)
+  - Download from [Node.js official website](https://nodejs.org/).
+
+### Steps to Install and Run
+
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/react-buddy-memory-simulator.git
    cd react-buddy-memory-simulator
