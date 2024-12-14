@@ -25,7 +25,7 @@ const mergeBlocks = (memory) => {
     ) {
       // Merge the blocks
       current.size *= 2;
-      merged.splice(i + 1, 1); // Remove the next block
+      merged.splice(i + 1, 1);
     } else {
       i++;
     }
@@ -47,7 +47,7 @@ const App = () => {
       return;
     }
 
-    const requiredSize = nearestPowerOfTwo(requestSize); // Calculate nearest power of 2
+    const requiredSize = nearestPowerOfTwo(requestSize);
     const updatedMemory = [...memory];
 
     for (let i = 0; i < updatedMemory.length; i++) {
@@ -85,7 +85,7 @@ const App = () => {
     const interval = setInterval(() => {
       const now = Date.now();
       const updatedMemory = memory.map((block) => {
-        if (block.allocated && now - block.timestamp >= 5000) {
+        if (block.allocated && now - block.timestamp >= 50000) {
           return { ...block, allocated: false, timestamp: null };
         }
         return block;
