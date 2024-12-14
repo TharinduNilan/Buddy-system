@@ -42,3 +42,6 @@ Make sure you have the following installed on your system:
    3. npm install
 
    4. npm run dev
+
+## Hosted Web Application
+- **Click this**: https://buddy-system-algorithm.netlify.app/
