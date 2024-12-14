@@ -1,29 +1,24 @@
 # React Buddy Memory Allocation Simulator
 
-This project is a **Buddy Memory Allocation Simulator** built with **React.js**. It demonstrates a memory management system where memory blocks are allocated and managed based on the **buddy system** algorithm. The simulator splits, allocates, and merges memory blocks dynamically.
-
----
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Technologies Used](#technologies-used)
-- [License](#license)
+This project is a **Buddy Memory Allocation Simulator** implemented in **React.js**. It demonstrates a memory management algorithm using the **buddy system**, dynamically allocating, splitting, and merging memory blocks. The application includes a visual representation of the memory pool, showcasing allocated and free blocks.
 
 ---
 
 ## Features
 
-- **Dynamic Memory Allocation**: Allocate memory in sizes rounded to the nearest power of two.
-- **Buddy System Splitting**: Splits larger memory blocks into smaller buddy blocks when necessary.
-- **Automatic Merging**: Free blocks are automatically merged when possible.
-- **Time-Based Deallocation**: Allocated memory is freed after a certain time interval.
-- **Visual Feedback**: Displays the memory pool with color-coded blocks:
-  - Red: Allocated blocks.
-  - Green: Free blocks.
+- **Buddy System Implementation**: Allocates memory in blocks that are powers of two, splitting larger blocks as necessary.
+- **Dynamic Memory Visualization**: Displays memory blocks as color-coded segments:
+  - **Red**: Allocated blocks.
+  - **Green**: Free blocks.
+- **Auto-Merge**: Merges free buddy blocks of the same size when deallocated.
+- **Time-Based Deallocation**: Frees memory blocks automatically after 50 seconds of allocation.
+
+---
+
+## Demo
+
+![Memory Pool Visualization](screenshot.png)  
+*A screenshot of the memory pool with free and allocated blocks.*
 
 ---
 
