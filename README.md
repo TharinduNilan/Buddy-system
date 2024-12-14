@@ -35,5 +35,10 @@ Make sure you have the following installed on your system:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/react-buddy-memory-simulator.git
-   cd react-buddy-memory-simulator
+   1. git clone https://github.com/yourusername/react-buddy-memory-simulator.git
+
+   2. cd react-buddy-memory-simulator
+
+   3. npm install
+
+   4. npm run dev
